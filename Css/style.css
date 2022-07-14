@@ -1,0 +1,100 @@
+/* general rule */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    overflow-y: scroll;
+}
+
+/* end general rules */
+/* header rules */
+.containerh {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../Images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 800px;
+    position: relative;
+    background-attachment: fixed;
+
+
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: #6c77f3;
+    font-size: large;
+}
+
+.logo-container {
+    margin: 50;
+}
+
+
+.logo {
+    width: 200px;
+}
+
+h1 {
+    color: #6c77f3;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+h3 {
+    color: #ffca0f;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+.Consulence {
+    background-color: rgba(240, 248, 255, 0);
+    color: #6c77f3;
+    font-size: large;
+    width: 120px;
+    height: 50px;
+    border: solid 0.5px aliceblue;
+    border-radius: 15px;
+}
+
+.Consulence:hover {
+    background-color: #ffca0f;
+}
+
+/* end header rules */
+/* main rules */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-felx {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+
+/* end main rules */
