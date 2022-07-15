@@ -85,6 +85,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px;
 }
 
 .text-felx {
@@ -96,5 +97,31 @@ h3 {
     max-width: 300px;
 }
 
+.ser-text {
+    max-width: 400px;
+}
+
+.back {
+    background-image: url(../Images/photo-1448518340475-e3c680e9b4be.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hover-seqa {
+    opacity: 0;
+    font-size: larger;
+    color: #ffca0f;
+}
+
+.back:hover #hover-seqa {
+    opacity: 1;
+
+}
 
 /* end main rules */
