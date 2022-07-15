@@ -40,8 +40,10 @@ a {
 }
 
 
-.logo {
+.logo,
+#hover-seqa {
     width: 200px;
+
 }
 
 h1 {
@@ -64,7 +66,7 @@ h3 {
     height: 200px;
 }
 
-.Consulence {
+.consulence {
     background-color: rgba(240, 248, 255, 0);
     color: #6c77f3;
     font-size: large;
@@ -74,12 +76,22 @@ h3 {
     border-radius: 15px;
 }
 
-.Consulence:hover {
+.consulence:hover {
     background-color: #ffca0f;
 }
 
 /* end header rules */
 /* main rules */
+
+hr {
+    margin: 10px auto;
+
+}
+
+.midle {
+    text-align: center;
+    padding: 20px;
+}
 
 .flex {
     display: flex;
@@ -124,4 +136,54 @@ h3 {
 
 }
 
+.scopri-piu {
+    max-width: 200px;
+    text-align: center;
+}
+
+.skils {
+    text-align: center;
+    padding: 20px;
+}
+
+.skils>div {
+    margin: 10px;
+}
+
+.maps {
+    width: calc(100% / 2);
+    height: 400px;
+}
+
+hr {
+    max-width: 600px;
+}
+
+
+
+
 /* end main rules */
+
+/* footer rules */
+.contact {
+    line-height: 1.7;
+}
+
+.social {
+    text-align: center;
+}
+
+.social-i {
+    font-size: xx-large;
+    margin: 4px;
+}
+
+.flex-social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(155, 118, 216, 0.719);
+}
