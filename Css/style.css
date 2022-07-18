@@ -7,8 +7,10 @@
 
 body {
     font-family: sans-serif;
-    overflow-y: scroll;
+    width: 100vw;
 }
+
+
 
 /* end general rules */
 /* header rules */
@@ -66,21 +68,7 @@ h3 {
     height: 200px;
 }
 
-.consulence,
-#button-back {
-    background-color: rgba(240, 248, 255, 0);
-    color: #6c77f3;
-    font-size: large;
-    width: 120px;
-    height: 50px;
-    border: solid 0.5px aliceblue;
-    border-radius: 15px;
-}
 
-.consulence,
-#button-back:hover {
-    background-color: #ffca0f;
-}
 
 /* end header rules */
 /* main rules */
@@ -147,6 +135,16 @@ hr {
     text-align: center;
 }
 
+.scopri-piu-button {
+    background-color: rgba(240, 248, 255, 0);
+    color: #6c77f3;
+    font-size: large;
+    width: 120px;
+    height: 50px;
+    border: solid 0.5px aliceblue;
+    border-radius: 15px;
+}
+
 .skils {
     text-align: center;
     padding: 20px;
@@ -177,12 +175,6 @@ hr {
     line-height: 1.7;
 }
 
-#button-back {
-    margin: 10px;
-}
-
-
-
 /* end main rules */
 
 /* footer rules */
@@ -208,3 +200,26 @@ hr {
 footer {
     background-color: rgba(155, 118, 216, 0.719);
 }
+
+/* footer rules end */
+
+
+/* buttons */
+.consulence,
+.button-back,
+.scopri-piu-button,
+.dettagli {
+    background-color: rgba(240, 248, 255, 0);
+    color: #6c77f3;
+    font-size: large;
+    width: 120px;
+    height: 50px;
+    border: solid 0.5px aliceblue;
+    border-radius: 15px;
+}
+
+.bg:hover {
+    background-color: #ffca0f;
+}
+
+/* End Buttons */
