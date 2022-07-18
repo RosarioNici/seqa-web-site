@@ -131,19 +131,21 @@ hr {
 }
 
 .scopri-piu {
-    max-width: 200px;
+    max-width: 300px;
+    height: 590px;
     text-align: center;
+    line-height: 1;
 }
 
-.scopri-piu-button {
-    background-color: rgba(240, 248, 255, 0);
-    color: #6c77f3;
-    font-size: large;
-    width: 120px;
-    height: 50px;
-    border: solid 0.5px aliceblue;
-    border-radius: 15px;
+.scopri-piu>div {
+    margin: 40px;
 }
+
+.p-piu {
+    margin: 25px;
+
+}
+
 
 .skils {
     text-align: center;
@@ -211,11 +213,12 @@ footer {
 .dettagli {
     background-color: rgba(240, 248, 255, 0);
     color: #6c77f3;
-    font-size: large;
+    font-size: medium;
+    font-weight: 600;
     width: 120px;
-    height: 50px;
+    height: 35px;
     border: solid 0.5px aliceblue;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .bg:hover {
