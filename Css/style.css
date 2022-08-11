@@ -1,235 +1,150 @@
-/* general rule */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: sans-serif;
-    width: 100vw;
-}
-
-img {
-    border-radius: 10px;
-}
-
-
-
-/* end general rules */
 /* header rules */
-.containerh {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../Images/sunset.jpg);
-    background-repeat: no-repeat;
+/* #region */
+.title-color {
+    color: #6964fe;
+}
+
+.content-color {
+    color: grey;
+}
+
+.yellow-logo {
+    background-color: rgba(241, 224, 148, 0.548);
+}
+
+#logo-sony {
+    width: 100px;
+}
+
+.hamb-menu {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(95, 95, 95);
+}
+
+.menu {
+    border: 1px solid grey;
+    width: 55px;
+
+}
+
+.jumbo {
+    background: url(../img/italian-pasta-ingredients-white-background-with-space-text_23-2147925938.webp) no-repeat center;
     background-size: cover;
-    background-position-x: center;
-    height: 800px;
-    position: relative;
-    background-attachment: fixed;
+    height: 100%;
+    overflow: hidden;
+}
 
+.jumbo-content {
+    color: white;
+}
+
+.down-arrow {
+    width: 15px;
 
 }
 
-a {
-    padding: 10px;
-    text-decoration: none;
-    color: #6c77f3;
-    font-size: large;
+.lens {
+    width: 25px;
 }
 
-.logo-container {
-    margin: 50;
+.hidden-bar {
+    display: none;
 }
 
+.dropdown-menu {
+    transform: translate(0px, 180px) !important;
+    border-radius: 0%;
+    border: 0px;
+}
 
-.logo,
-#hover-seqa {
+.link-drop {
+    color: black;
+}
+
+.bullet-blue {
+    font-size: x-large;
+    color: hsl(207.8, 100%, 41%);
+}
+
+.nav-button:hover {
+    border: 0px;
+}
+
+.nav-button {
+    border: none;
+}
+
+.search {
     width: 200px;
-
+    text-align: center;
 }
 
-h1 {
-    color: #6c77f3;
+ul {
+    list-style-type: none;
+}
+
+.icon-large {
     font-size: xx-large;
-    font-weight: 900;
+    color: #6964fe;
 }
 
-h3 {
-    color: #ffca0f;
-    font-size: xx-large;
-    font-weight: 900;
+.icon-logo {
+    width: 80px;
 }
 
-.welcome {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 200px;
+.img-ps {
+    width: 160px;
 }
 
+/* #endregion */
+/* button */
+/* #region */
 
 
-/* end header rules */
-/* main rules */
-
-.servizzi>div {
-    margin: 10px;
-}
-
-hr {
-    margin: 10px auto;
-
-}
-
-.midle {
-    text-align: center;
-    padding: 20px;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
-.text-felx {
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    max-width: 300px;
-}
-
-.ser-text {
-    max-width: 400px;
-}
-
-.back {
-    background-image: url(../Images/photo-1448518340475-e3c680e9b4be.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 400px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hover-seqa {
-    opacity: 0;
-    font-size: larger;
-    color: #ffca0f;
-}
-
-.back:hover #hover-seqa {
-    opacity: 1;
-
-}
-
-.scopri-piu {
-    max-width: 400px;
-    height: 590px;
-    text-align: center;
-    line-height: 1;
-}
-
-.scopri-piu>div {
-    margin: 40px;
-}
-
-.p-piu {
-    margin: 25px;
-    font-size: large;
-
-}
-
-
-.skils {
-    text-align: center;
-    padding: 20px;
-}
-
-.skils>div {
-    margin: 10px;
-}
-
-.maps {
-    width: calc(100% / 2);
-    height: 400px;
-    border-radius: 20px;
-    margin: 10px;
-}
-
-hr {
-    max-width: 600px;
-}
-
-.m-back {
-    background-image: url(../Images/photo-1448518340475-e3c680e9b4be.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffca0f;
-    line-height: 1.7;
-}
-
-/* end main rules */
-
-/* footer rules */
-.contact {
-    line-height: 1.7;
-}
-
-.social {
-    text-align: center;
-}
-
-.social-i {
-    font-size: xx-large;
-    margin: 4px;
-}
-
-.flex-social {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer {
-    background-color: rgba(155, 118, 216, 0.719);
-}
-
-/* footer rules end */
-
-
-/* buttons */
-.consulence,
-.button-back,
-.scopri-piu-button,
-.dettagli {
-    background-color: rgba(240, 248, 255, 0);
-    color: #6c77f3;
-    font-size: medium;
+.jumbo-button {
+    color: #6964fe;
+    /* color: #fdb70a; */
+    border: 1px solid grey;
     font-weight: 600;
-    width: 120px;
-    height: 35px;
-    border: solid 0.5px aliceblue;
-    border-radius: 20px;
 }
 
-.bg:hover {
-    background-color: #ffca0f;
+/* #endregion */
+/* main rules */
+/* #region */
+/* #endregion */
+/* footer rules */
+/* #region */
+/* #endregion */
+/* media query */
+/* #region */
+
+
+@media screen and (min-width:992px) {
+
+    .img-diagonal,
+    .text-thumb {
+        display: inherit;
+    }
 }
 
-/* End Buttons */
+@media screen and (min-width: 1400px) {
+    .hambu-menu {
+        display: none;
+    }
+
+    .hidden-bar {
+        display: inherit;
+    }
+
+    .flex-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo-footer-ps {
+        width: 150px;
+    }
+}
+
+/* #endregion */

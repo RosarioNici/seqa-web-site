@@ -1,0 +1,10 @@
+.img-ps:hover {
+    transform: scale(1);
+    border: 1px grey solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.jumbo-button:hover {
+    box-shadow: 0px 0px 10px #6964fe;
+}
