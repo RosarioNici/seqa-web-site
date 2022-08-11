@@ -1,5 +1,10 @@
 /* header rules */
 /* #region */
+a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .title-color {
     color: #6964fe;
 }
@@ -19,11 +24,11 @@
 .hamb-menu {
     width: 30px;
     height: 3px;
-    background-color: rgb(95, 95, 95);
+    background-color: #6964fe;
 }
 
 .menu {
-    border: 1px solid grey;
+    border: 1px solid #6964fe;
     width: 55px;
 
 }

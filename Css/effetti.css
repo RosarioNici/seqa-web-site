@@ -8,3 +8,7 @@
 .jumbo-button:hover {
     box-shadow: 0px 0px 10px #6964fe;
 }
+
+a:hover {
+    color: #fdb70a;
+}
