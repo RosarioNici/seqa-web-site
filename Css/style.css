@@ -58,7 +58,7 @@ a {
 }
 
 .dropdown-menu {
-    transform: translate(0px, 180px) !important;
+    transform: translate(0px, 220px) !important;
     border-radius: 0%;
     border: 0px;
 }
