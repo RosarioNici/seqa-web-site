@@ -20,3 +20,11 @@ a:hover {
     font-weight: 500;
     color: #6964fe;
 }
+
+.midle-hidden-img {
+    visibility: hidden;
+}
+
+.midle-img:hover .midle-hidden-img {
+    visibility: visible;
+}
