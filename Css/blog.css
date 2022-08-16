@@ -1,5 +1,4 @@
 /* header rules */
-/* #region */
 a {
     text-decoration: none;
     font-weight: 500;
@@ -112,11 +111,15 @@ ul {
     color: #6964fe;
 }
 
-/* #endregion */
-/* button */
-/* #region */
+/* footer */
+
+.footer-addres {
+    color: white;
+    background-color: rgba(151, 151, 151, 0.815);
+}
 
 
+/* BUTTON */
 .jumbo-button {
     color: #6964fe;
     /* color: #fdb70a; */
@@ -124,92 +127,11 @@ ul {
     font-weight: 600;
 }
 
-/* #endregion */
-/* main rules */
-/* #region */
-.card {
-    border: none !important;
-}
-
-.midle-img-bg {
-    background-color: #6964fe79;
-    height: 300px;
-}
-
-.midle-img {
-    background-color: #ffe7ad;
-    height: 140px;
-    width: 100%;
-}
-
-.midle-hidden-img {
-    height: 140px;
-    width: 300px;
-}
-
-.bg-violet {
-    background-color: #6964fe79;
-}
-
-.forum-button {
-    width: 80px;
-    background-color: #ffd56c8f;
-    color: #6964fe;
-    border: 1px solid #6964fe;
-}
-
-.card-main {
-    position: relative;
-}
-
-.icon-large-main {
-
-    position: absolute;
-    left: 45%;
-    top: 46%;
-}
-
-.img-serv {
-    opacity: 0;
-}
-
-
-
-
-
-
-
-/* #endregion */
-/* footer rules */
-/* #region */
-.footer-addres {
-    color: white;
-    background-color: rgba(151, 151, 151, 0.815);
-}
-
-/* Set the size of the div element that contains the map */
-/* #map {
-    height: 400px;
-    /* The height is 400 pixels */
-/* width: 100%; */
-/* The width is the width of the web page */
-/* }
-
-.maps-section {
-    background-color: #ffe7ad;
-} */
-
-/* #endregion */
 /* media query */
-/* #region */
-
 
 @media screen and (min-width:992px) {
 
-    .img-diagonal,
-    .text-thumb {
-        display: inherit;
-    }
+
 
     .social-icon {
         font-size: xx-large;
@@ -235,6 +157,3 @@ ul {
         width: 150px;
     }
 }
-
-
-/* #endregion */

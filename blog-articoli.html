@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Css/blog.css">
+    <link rel="stylesheet" href="./Css/effetti.css">
+    <title>SEQA-Blog-Articoli</title>
+    <link rel="shortcut icon" href="./img/IMG_7022.PNG">
+</head>
+
+<body>
+    <header>
+        <!-- strat header whit three part  -->
+        <!-- first part of header -->
+        <div class="yellow-logo col-12 container-fluid py-3  d-flex justify-content-between align-items-center">
+            <div class="social">
+                <i class="fa-brands fa-facebook social-icon"></i>
+                <i class="fa-brands fa-instagram social-icon"></i>
+                <i class="fa-brands fa-tiktok social-icon"></i>
+                <i class="fa-brands fa-linkedin social-icon"></i>
+            </div>
+            <div><img class="mx-4" id="logo-seqa" src="./img/download.png" alt="Logo Seqa"></div>
+
+        </div>
+        <div class="navigation-bar py-3 container-fluid justify-content-between d-flex align-items-center">
+            <nav class="d-flex align-items-center">
+                <div>
+                    <img class="icon-logo" src="./img/IMG_7022.PNG" alt="Logo Playstation">
+                </div>
+                <div class="hidden-bar">
+                    <ul class="d-flex my-0">
+                        <li>
+                            <button class="btn nav-button"> <a href="./index.html">Home </a>
+                            </button>
+                        </li>
+                        </li>
+                        <li>
+                            <button class="btn nav-button">Blog <img class="img-fluid down-arrow"
+                                    src="./img/chevron-down-solid.svg" alt="Down arrow" href="javascript:void(0)"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <ul class="dropdown-menu container-fluid text-center ">
+                                    <div class="d-flex justify-content-center">
+                                        <li class="img-ps mx-2 pt-4 px-4">
+                                            <div class="py-4">
+                                                <i class="fa-solid fa-newspaper icon-large"></i>
+                                            </div>
+                                            <a class="dropdown-item" href="javascript:void(0)">News</a>
+                                        </li>
+                                        <li class="img-ps mx-2 pt-4 px-4">
+                                            <div class="py-4">
+                                                <i class="fa-solid fa-arrows-rotate icon-large"></i>
+                                            </div>
+                                            <a class="dropdown-item text-center"
+                                                href="javascript:void(0)">Aggiornamenti</a>
+                                        </li>
+                                    </div>
+
+                                </ul>
+                            </button>
+
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="navigation">
+                <nav class="py-2 px-2 d-flex">
+                    <div class="hidden-bar">
+                        <div class="d-flex align-items-center">
+                            <div class="mx-2">
+                                <button class="btn nav-button">SEQA <img class="img-fluid down-arrow"
+                                        src="./img/chevron-down-solid.svg" alt="Down arrow" href="javascript:void(0)"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <ul class="dropdown-menu container-fluid text-center ">
+                                        <div class="d-flex justify-content-center">
+                                            <li class="img-ps mx-2 pt-4 px-4 flex-column align-items-center">
+                                                <div class="py-4">
+                                                    <img src="./img/play-menu-ico.png" alt="">
+                                                </div>
+                                                <a class="dropdown-item" href="javascript:void(0)">Dr. NICI </a>
+                                            </li>
+                                            <li class="img-ps mx-2 pt-4 px-4 flex-column align-items-center">
+                                                <div class="py-4">
+                                                    <img src="./img/play-menu-ico.png" alt="">
+                                                </div>
+                                                <div class="container-fluid text-center"><a class="dropdown-item"
+                                                        href="javascript:void(0)">DR.
+                                                        CALIFANO</a></div>
+                                            </li>
+                                            <li class="img-ps mx-2 pt-4 px-4 flex-column align-items-center">
+                                                <div class="py-4">
+                                                    <img src="./img/play-menu-ico.png" alt="">
+                                                </div>
+                                                <div class="container-fluid text-center"><a class="dropdown-item"
+                                                        href="javascript:void(0)">DOTT.SSA
+                                                        NICI</a></div>
+                                            </li>
+
+                                        </div>
+
+                                        <!-- 
+                                            <hr>
+                                            <div class="d-flex justify-content-center">
+                                            <li><a class="link-drop mx-2 p-1" href="javascript:void(0)"><span class="bullet-blue">&javascript:void(0)8226;</span> link giochi</a></li>
+                                            <li><a class="link-drop mx-2 p-1" href="javascript:void(0)"><span class="bullet-blue">&javascript:void(0)8226;</span> link giochi</a></li>
+                                            <li><a class="link-drop mx-2 p-1" href="javascript:void(0)"><span class="bullet-blue">&javascript:void(0)8226;</span> link giochi</a></li>
+                                        </div> -->
+
+                                    </ul>
+                                </button>
+                            </div>
+                            <div class="mx-2">
+                                <button class="jumbo-button p-2 rounded-5">Contattaci</button>
+                            </div>
+                            <div class="mx-2">
+                                <button class="btn nav-button"><i class="fa-solid fa-magnifying-glass icon-large"
+                                        src="./img/lens.svg" alt="Lens of search" href="javascript:void(0)"
+                                        role="button" data-bs-toggle="dropdown"></i>
+                                    <div class="dropdown-menu search">
+                                        <input type="text" placeholder="Cerca...">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hambu-menu">
+                        <button type="button" class="btn nav-button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="menu rounded py-2 text-center justify-content-center row">
+                                <div class="hamb-menu my-1 rounded"></div>
+                                <div class="hamb-menu my-1 rounded"></div>
+                                <div class="hamb-menu my-1 rounded"></div>
+                            </div>
+                            <div class="dropdown-menu">
+                                <ul class="">
+                                    <li class="py-2"><a class="link-drop" href="javascript:void(0)">Chi Siamo</a></li>
+                                    <li class="py-2"><a class="link-drop" href="javascript:void(0)">Servizi</a></li>
+                                    <li class="py-2"><a class="link-drop" href="javascript:void(0)">Industrie</a></li>
+                                    <li class="py-2"><a class="link-drop" href="javascript:void(0)">Blog</a></li>
+                                    <li class="py-2"><a class="link-drop" href="javascript:void(0)">SEQA</a></li>
+                                </ul>
+                            </div>
+                        </button>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <!-- <section>
+            <div class="text-center container-fluid maps-section col-6">
+                <h3>Dove siamo</h3> -->
+        <!--The div element for the map -->
+        <!-- <div id="map"></div> -->
+
+        <!-- 
+                 The `defer` attribute causes the callback to execute after the full HTML
+                 document has been parsed. For non-blocking uses, avoiding race conditions,
+                 and consistent behavior across browsers, consider loading using Promises
+                 with https://www.npmjs.com/package/@googlemaps/js-api-loader.
+                -->
+        <!-- <script
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+                    defer></script>
+            </div>
+
+        </section> -->
+        <section class="footer-addres py-3">
+            <div class="container-md d-flex justify-content-between align-items-center">
+                <div class="indirizzi d-flex">
+                    <div class="me-3">
+                        <h6>Rocca di Capri Leone</h6>
+                        <p>Via Europa, 62 <br>
+                            98070 ME <br>
+                            +39 327214155</p>
+                    </div>
+                    <div class="me-3">
+                        <h6>Ercolano</h6>
+                        <p>Via Europa, 62 <br>
+                            98070 ME <br>
+                            +39 327214155</p>
+                    </div>
+                    <!-- <div>Milano</div> -->
+                </div>
+                <div class="regione-sociale">
+                    <div>
+                        <p>
+                            Privacy & Cookie Policy <br>
+                            © 2022 Seqa S.r.l.s. | P.IVA 03671100836 <br>
+                            Capitale Sociale 1.900,00 i.v.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

@@ -1,3 +1,7 @@
+/* home rules */
+/* #region */
+
+
 .img-ps:hover {
     transform: scale(1);
     border: 1px grey solid;
@@ -8,6 +12,11 @@
 
 .jumbo-button:hover {
     box-shadow: 0px 0px 10px #6964fe;
+}
+
+.forum-button:hover {
+    box-shadow: 0px 0px 10px #6964fe;
+    background-color: #6964fe;
 }
 
 a:hover {
@@ -28,3 +37,15 @@ a:hover {
 .midle-img:hover .midle-hidden-img {
     visibility: visible;
 }
+
+.card-main:hover .img-serv {
+    opacity: .7;
+}
+
+.card-main:hover .icon-large-main {
+    visibility: hidden;
+}
+
+/* #endregion */
+
+/* blog rules */
