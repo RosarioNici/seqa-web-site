@@ -127,6 +127,15 @@ ul {
     font-weight: 600;
 }
 
+/* main rules */
+aside {
+    width: 25%;
+}
+
+p {
+    max-width: 450px;
+}
+
 /* media query */
 
 @media screen and (min-width:992px) {
