@@ -1,8 +1,8 @@
 /* header rules */
+/* #region */
 a {
     text-decoration: none;
     font-weight: 500;
-    color: black;
 }
 
 .title-color {
@@ -112,15 +112,11 @@ ul {
     color: #6964fe;
 }
 
-/* footer */
-
-.footer-addres {
-    color: white;
-    background-color: rgba(151, 151, 151, 0.815);
-}
+/* #endregion */
+/* button */
+/* #region */
 
 
-/* BUTTON */
 .jumbo-button {
     color: #6964fe;
     /* color: #fdb70a; */
@@ -128,20 +124,18 @@ ul {
     font-weight: 600;
 }
 
-/* main rules */
-aside {
-    width: 25%;
-}
-
-p {
-    max-width: 450px;
-}
+/* #endregion */
 
 /* media query */
+/* #region */
+
 
 @media screen and (min-width:992px) {
 
-
+    .img-diagonal,
+    .text-thumb {
+        display: inherit;
+    }
 
     .social-icon {
         font-size: xx-large;
@@ -167,3 +161,6 @@ p {
         width: 150px;
     }
 }
+
+
+/* #endregion */
