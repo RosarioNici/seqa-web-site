@@ -125,6 +125,29 @@ ul {
 }
 
 /* #endregion */
+/* main rules */
+aside {
+    width: 25%;
+}
+
+p {
+    line-height: 2;
+}
+
+.main-article {
+    max-width: 60%;
+}
+
+.title-article {
+    color: #6964fe;
+}
+
+/* footer */
+
+.footer-addres {
+    color: white;
+    background-color: rgba(151, 151, 151, 0.815);
+}
 
 /* media query */
 /* #region */
