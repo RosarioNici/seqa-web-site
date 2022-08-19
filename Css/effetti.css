@@ -46,6 +46,14 @@ a:hover {
     visibility: hidden;
 }
 
+.img-home {
+    transition: 2s;
+}
+
+.img-home:hover {
+    transform: scale(1.3);
+}
+
 /* #endregion */
 
 /* blog rules */
