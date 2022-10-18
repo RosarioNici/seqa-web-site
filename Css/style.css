@@ -33,12 +33,50 @@ a {
 
 }
 
+/* jumbo */
+/* #region */
+
 .jumbo {
     background: url(../img/italian-pasta-ingredients-white-background-with-space-text_23-2147925938.webp) no-repeat center;
     background-size: cover;
     height: 100%;
     overflow: hidden;
 }
+
+.jumbo-cert {
+    background: url(../img/Progettosenzatitolo1.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-obbiettivi {
+    background: url(../img/perche-devi-definire-con-assoluta-chiarezza-gli-obiettivi-finanziari-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-lab {
+    background: url(../img/header-bg-dataclinica-laboratorio-analisi-cliniche-001.webp) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jumbo-form {
+    background: url(../img/Testata_news_14_07.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* #endregion */
 
 .jumbo-content {
     color: white;
@@ -124,6 +162,19 @@ ul {
     font-weight: 600;
 }
 
+.jumbo-button-serv {
+    width: 250px;
+    height: 80px;
+    color: #6964fe;
+    /* color: #fdb70a; */
+    border: 1px solid grey;
+    font-weight: 600;
+}
+
+.button-marketing {
+    border: none;
+}
+
 /* #endregion */
 /* main rules */
 /* #region */
@@ -138,6 +189,7 @@ ul {
 .midle-img-bg {
     background-color: #6964fe79;
     height: 300px;
+
 }
 
 .midle-img {
@@ -153,6 +205,7 @@ ul {
 
 .bg-violet {
     background-color: #6964fe79;
+    border-radius: 25px;
 }
 
 .forum-button {
@@ -177,7 +230,29 @@ ul {
     opacity: 0;
 }
 
+.bullet-on {
+    list-style-type: disc;
 
+}
+
+.color-v {
+    color: #6964fe;
+}
+
+.icon-large-cont {
+    font-size: large;
+    color: #6964fe;
+}
+
+.social-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.title-color-y {
+    color: #fdb70a;
+}
 
 
 
@@ -188,7 +263,7 @@ ul {
 /* #region */
 .footer-addres {
     color: white;
-    background-color: rgba(107, 107, 107, 0.815);
+    background-color: rgba(87, 86, 86, 0.815);
 }
 
 /* Set the size of the div element that contains the map */
@@ -221,7 +296,7 @@ ul {
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .hambu-menu {
         display: none;
     }
